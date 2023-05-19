@@ -81,10 +81,10 @@ const Home = () => {
                     <a className="text-gradient" href="#!">
                       <i className="bi bi-twitter"></i>
                     </a>
-                    <a className="text-gradient" href="#!">
+                    <a className="text-gradient" href="https://www.linkedin.com/in/mohsin-ali-syed-10a16b215">
                       <i className="bi bi-linkedin"></i>
                     </a>
-                    <a className="text-gradient" href="#!">
+                    <a className="text-gradient" href="https://bitbucket.org/mohsin__5775/workspace/repositories">
                       <i className="bi bi-github"></i>
                     </a>
                   </div>

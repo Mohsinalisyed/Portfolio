@@ -48,7 +48,7 @@ const Resume = () => {
                 {/* <!-- Experience Card 1--> */}
                 <ExperienceCard
                   startDate="Oct 22"
-                  endDate="Apr 23"
+                  endDate="Continue"
                   position="React Developer"
                   company="Ideofuzion"
                   desc="Work on different projects.I have good experience in
