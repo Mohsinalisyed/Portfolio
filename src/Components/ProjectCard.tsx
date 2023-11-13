@@ -13,7 +13,7 @@ const ProjectCard:React.FC<Iprops> = ({projectName,link,imgSrc}) => {
                 <h2 className="fw-bolder">{projectName}</h2>
                 <a href={link}> Click to visit</a>
             </div>
-            <div><img className="img-fluid" src={imgSrc} alt="..." style={{maxWidth:'400px'}} /></div>
+            <div><img className="img-fluid" src={imgSrc} alt="..." style={{maxWidth:'100px'}} /></div>
         </div>
     </div>
 </div>

@@ -5,10 +5,10 @@ import ProjectCard from './Components/ProjectCard'
 import { Link } from 'react-router-dom'
 
 const Project = () => {
-  return (
-    <div>
-        <Header/>
-                  {/* <!-- Projects Section--> */}
+    return (
+        <div>
+            <Header />
+            {/* <!-- Projects Section--> */}
             <section className="py-5">
                 <div className="container px-5 mb-5">
                     <div className="text-center mb-5">
@@ -17,11 +17,11 @@ const Project = () => {
                     <div className="row gx-5 justify-content-center">
                         <div className="col-lg-11 col-xl-9 col-xxl-8">
                             {/* <!-- Project Card 1--> */}
-                      <ProjectCard projectName='SecretVersa' link='https://friendly-dragon-bfd3f3.netlify.app/' imgSrc='img/scrt.png'/>
+                            <ProjectCard projectName='TOTE' link='https://friendly-dragon-bfd3f3.netlify.app/' imgSrc='img/Tote-Logo.png' />
                             {/* <!-- Project Card 2--> */}
-                            <ProjectCard projectName='Tidal' link='https://rad-haupia-212d0b.netlify.app/trade' imgSrc='img/tidal.png'/>
+                            <ProjectCard projectName='Tidal' link='https://rad-haupia-212d0b.netlify.app/trade' imgSrc='img/tidal.png' />
                             {/* <!-- Project Card 3--> */}
-                            <ProjectCard projectName='KwikTrust' link='https://incandescent-pony-0cdbf5.netlify.app/' imgSrc='img/kwiktrust.png'/>
+                            <ProjectCard projectName='KwikTrust' link='https://incandescent-pony-0cdbf5.netlify.app/' imgSrc='img/kwiktrust.png' />
                         </div>
                     </div>
                 </div>
@@ -35,9 +35,9 @@ const Project = () => {
                     </div>
                 </div>
             </section>
-            <Footer/>
-    </div>
-  )
+            <Footer />
+        </div>
+    )
 }
 
 export default Project
