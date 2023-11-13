@@ -49,27 +49,44 @@ const Resume = () => {
                 <ExperienceCard
                   startDate="Oct 22"
                   endDate="Continue"
-                  position="React Developer"
-                  company="Ideofuzion"
-                  desc="Work on different projects.I have good experience in
-                  React Js,Angular Js, Html5,CSS3,Bootstrap,JavaScript and Typescript."
+                  position="Jr React Developer"
+                  company="Ideofuzion Pvt Ltd"
+                  location="Bahria Phase 4 Rawalpindi"
+                  desc="Reviewing application requirements and interface designs,
+                        implementing a single-page application utilizing React js and
+                        Redux, and meeting with the development team to discuss
+                        user interface concepts all contributed to better user
+                        experience and overall performance. Debugging application
+                        code and troubleshooting interface software. tracking and
+                        enhancing front-end efficiency.Before deploying produced
+                        code to production settings,performed testing , fix issues
+                        discovered during testing .
+                        "
                 />
-              
+
                 {/* <!-- Experience Card 2--> */}
                 <ExperienceCard
                   startDate="July 20"
                   endDate="Sep 20"
                   position="InternShip"
-                  company="Kreashion Software"
-                  desc="Kreashion Software Gulburg Green Islamabad
-                   Learn Languages Html , CSS ,PHP, JavaScript ,JQuery,BootStrap, MySql."
+                  company="Techozon Software"
+                  location="Gulberg Green Islamabad"
+                  desc="Designing and developing front-end interfaces using HTML, CSS,
+                        JavaScript and React js. It often provide the chance to work
+                        alongside experienced developers, designers, and project
+                        managers. Developing and implementing front-end architecture
+                        to support user interface concepts. Identifying web-based user
+                        interactions. Collaborating with the team will help me
+                        understand the project requirements, receive guidance, and
+                        learn best practices in front-end development.
+                        "
                 />
               </section>
               {/* <!-- Education Section--> */}
               <section>
                 <h2 className="text-secondary fw-bolder mb-4">Education</h2>
                 {/* <!-- Education Card 1--> */}
-                <EductionCard startDate="2018" endDate="2022 " degree="Bacholer's CS" location1="University Of Lahore" location2=" Islamabad Campus" grade="Grade A"/>
+                <EductionCard startDate="2018" endDate="2022 " degree="Bacholer's CS" location1="University Of Lahore" location2=" Islamabad Campus" grade="Grade A" />
                 {/* <!-- Education Card 2--> */}
                 <EductionCard startDate="2016" endDate="2018" degree="Intermediate" location1="Punjab College" location2=" Rawalpindi" grade="Grade B" />
                 {/* <!-- Education Card 3--> */}
@@ -107,11 +124,28 @@ const Resume = () => {
                         </div>
                         <div className="col">
                           <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                            Web Development
+                            Next Js
                           </div>
                         </div>
                       </div>
-                      <div className="row row-cols-1 row-cols-md-3">
+                      <div className="row row-cols-1 row-cols-md-3 mb-4">
+                        <div className="col mb-4 mb-md-0">
+                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                       Web Development
+                          </div>
+                        </div>
+                        <div className="col mb-4 mb-md-0">
+                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                           Figma
+                          </div>
+                        </div>
+                        <div className="col">
+                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                            Api Integration
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
                           <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
                             Redux
@@ -127,19 +161,6 @@ const Resume = () => {
                             BitBucket
                           </div>
                         </div>
-                      </div>
-                    </div>
-                    {/* <!-- Languages list--> */}
-                    <div className="mb-0">
-                      <div className="d-flex align-items-center mb-4">
-                        <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
-                          <i className="bi bi-code-slash"></i>
-                        </div>
-                        <h3 className="fw-bolder mb-0">
-                          <span className="text-gradient d-inline">
-                            Languages
-                          </span>
-                        </h3>
                       </div>
                       <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">

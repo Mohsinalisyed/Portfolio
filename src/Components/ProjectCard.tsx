@@ -2,9 +2,8 @@ import React from 'react'
 interface Iprops{
     projectName:string;
     link:string;
-    imgSrc:string;
 }
-const ProjectCard:React.FC<Iprops> = ({projectName,link,imgSrc}) => {
+const ProjectCard:React.FC<Iprops> = ({projectName,link}) => {
   return (
     <div className="card overflow-hidden shadow rounded-4 border-0 mb-5">
     <div className="card-body p-0 ">
@@ -13,7 +12,6 @@ const ProjectCard:React.FC<Iprops> = ({projectName,link,imgSrc}) => {
                 <h2 className="fw-bolder">{projectName}</h2>
                 <a href={link}> Click to visit</a>
             </div>
-            <div><img className="img-fluid" src={imgSrc} alt="..." style={{maxWidth:'100px'}} /></div>
         </div>
     </div>
 </div>

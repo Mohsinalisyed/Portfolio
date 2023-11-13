@@ -69,7 +69,7 @@ const Home = () => {
                     <span className="text-gradient d-inline">About Me</span>
                   </h2>
                   <p className="lead fw-light mb-4">
-                    My name is Mohsin Ali Syed and I help brands grow.
+                    My name is Mohsin Ali Syed and I help brands to grow.
                   </p>
                   <p className="text-muted">
                     I am an energetic and disciplined individual with excellent

@@ -17,11 +17,13 @@ const Project = () => {
                     <div className="row gx-5 justify-content-center">
                         <div className="col-lg-11 col-xl-9 col-xxl-8">
                             {/* <!-- Project Card 1--> */}
-                            <ProjectCard projectName='TOTE' link='https://friendly-dragon-bfd3f3.netlify.app/' imgSrc='img/Tote-Logo.png' />
+                            <ProjectCard projectName='Tote' link='https://friendly-dragon-bfd3f3.netlify.app/' />
                             {/* <!-- Project Card 2--> */}
-                            <ProjectCard projectName='Tidal' link='https://rad-haupia-212d0b.netlify.app/trade' imgSrc='img/tidal.png' />
+                            <ProjectCard projectName='Gamesfi' link='https://www.gamesfi.live/'  />
                             {/* <!-- Project Card 3--> */}
-                            <ProjectCard projectName='KwikTrust' link='https://incandescent-pony-0cdbf5.netlify.app/' imgSrc='img/kwiktrust.png' />
+                            <ProjectCard projectName='KwikTrust' link='https://kwiktrust.com/' />
+                            {/* <!-- Project Card 4--> */}
+                            <ProjectCard projectName='Pixel Paddle' link='https://www.pixelpaddle.com/' />
                         </div>
                     </div>
                 </div>
