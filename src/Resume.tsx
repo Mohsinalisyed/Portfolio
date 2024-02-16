@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
 import ExperienceCard from "./Components/ExperienceCard";
 import EductionCard from "./Components/EductionCard";
 import { saveAs } from "file-saver";
@@ -21,16 +19,16 @@ const Resume = () => {
   return (
     <div>
       <main className="flex-shrink-0">
-        <Header />
+        
         {/* <!-- Page Content--> */}
-        <div className="container px-5 my-5">
+        <div className="container px-3">
           <div className="text-center mb-5">
             <h1 className="display-5 fw-bolder mb-0">
               <span className="text-gradient d-inline">Resume</span>
             </h1>
           </div>
-          <div className="row gx-5 justify-content-center">
-            <div className="col-lg-11 col-xl-9 col-xxl-8">
+          <div className="row gx-12 justify-content-center">
+            <div className="col-lg-12 col-xl-12 col-xxl-12">
               {/* <!-- Experience Section--> */}
               <section>
                 <div className="d-flex align-items-center justify-content-between mb-4">
@@ -38,11 +36,11 @@ const Resume = () => {
                   {/* <!-- Download resume button--> */}
                   {/* <!-- Note: Set the link href target to a PDF file within your project--> */}
                   <button
-                    className="btn btn-primary px-4 py-3"
+                    className="btn btn-primary px-4 py-2"
                     onClick={downloadPDF}
                   >
                     <div className="d-inline-block bi bi-download me-2"></div>
-                    Download Resume
+                    Resume
                   </button>
                 </div>
                 {/* <!-- Experience Card 1--> */}
@@ -205,7 +203,7 @@ const Resume = () => {
         </div>
       </main>
       {/* <!-- Footer--> */}
-      <Footer />
+     
     </div>
   );
 };

@@ -1,16 +1,14 @@
 import React from "react";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <main className="flex-shrink-0">
+    <main className="flex-shrink-0">
         {/* <!-- Navigation--> */}
-        <Header />
+        
         {/* <!-- Header--> */}
         <header className="py-5">
-          <div className="container px-5 pb-5">
+          <div className="container px-3 pb-5">
             <div className="row gx-5 align-items-center">
               <div className="col-xxl-5">
                 {/* <!-- Header text content--> */}
@@ -30,13 +28,13 @@ const Home = () => {
                   </h1>
                   <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                     <Link
-                      className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
+                      className="btn btn-primary btn-lg px-3 py-3 me-sm-3 fs-6 fw-bolder"
                       to="resume"
                     >
                       Resume
                     </Link>
                     <Link
-                      className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
+                      className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder"
                       to="projects"
                     >
                       Projects
@@ -46,7 +44,7 @@ const Home = () => {
               </div>
               <div className="col-xxl-7 ">
                 {/* <!-- Header profile picture--> */}
-                <div className="d-flex justify-content-center mt-5 mt-xxl-0">
+                <div className="d-flex justify-content-center justify-content-lg-end mt-5 mt-xxl-0">
                   <div className="profile bg-gradient-primary-to-secondary ">
                     <img
                       className="profile-img"
@@ -61,7 +59,7 @@ const Home = () => {
         </header>
         {/* <!-- About Section--> */}
         <section className="bg-light py-5">
-          <div className="container px-5">
+          <div className="container px-3">
             <div className="row gx-5 justify-content-center">
               <div className="col-xxl-8">
                 <div className="text-center my-5">
@@ -94,7 +92,7 @@ const Home = () => {
           </div>
         </section>
       </main>
-      <Footer />
+     
     </div>
   );
 };

@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
 import notification from "./toast";
 import { ToastContainer } from "react-toastify";
 const Contact = () => {
@@ -113,9 +111,9 @@ const Contact = () => {
 
   return (
     <div>
-      <Header />
+      
       <section className="py-5">
-        <div className="container px-5">
+        <div className="container px-3">
           {/* <!-- Contact form--> */}
           <div className="bg-light rounded-4 py-5 px-4 px-md-5">
             <div className="text-center mb-5">
@@ -210,7 +208,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <Footer />
+     
     </div>
   );
 };

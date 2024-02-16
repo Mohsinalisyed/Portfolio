@@ -6,7 +6,7 @@ const Header = () => {
        <main className="flex-shrink-0 navbarStyle">
             {/* <!-- Navigation--> */}
             <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div className="container px-5">
+                <div className="container px-3">
             <Link className="navbar-brand" to="/">
               <span className="fw-bolder text-primary">PortFolio</span></Link>
             <button className="navbar-toggler" 
