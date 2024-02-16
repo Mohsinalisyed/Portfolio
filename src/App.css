@@ -11739,3 +11739,11 @@ html {
     left: -2vw;
   }
 }
+.navbarStyle {
+  position:absolute;
+  width:100% ;
+}
+.navbar-toggler {
+  outline:none;
+  box-shadow:none !important;
+}
