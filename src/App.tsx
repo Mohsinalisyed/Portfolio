@@ -9,7 +9,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 function App() {
   return (
-    <div >
+    <div style={{overflowX:"hidden"}}>
       <BrowserRouter>
         <Header/>
         <Routes>
