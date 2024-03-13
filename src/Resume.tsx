@@ -105,7 +105,7 @@ const Resume = () => {
               <section>
                 {/* <!-- Skillset Card--> */}
                 <div className="card shadow border-0 rounded-4 mb-5  bg-gradient">
-                  <div className="card-body p-5">
+                  <div className="card-body p-5 pb-0">
                     {/* <!-- Professional skills list--> */}
                     <div className="mb-5">
                       <div className="d-flex align-items-center mb-4">
@@ -180,13 +180,13 @@ const Resume = () => {
                             <MdLineStyle />  <span className='px-2'>Styled components</span>
                           </div>
                         </div>
-                        <div className="col">
+                        <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             <MdOutlineImportantDevices /> <span className='px-2'>Responsive Design</span>
                           </div>
                         </div>
                       </div>
-                      <div className="row row-cols-1 row-cols-md-3">
+                      <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             <FaFigma/> <span className='px-2'>Figma</span>
@@ -197,7 +197,7 @@ const Resume = () => {
                             <SiStrapi/> <span className='px-2'>Strapi(cms)</span>
                           </div>
                         </div>
-                        <div className="col">
+                        <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             <AiOutlineApi /> <span className='px-2'>Api integration</span>
                           </div>

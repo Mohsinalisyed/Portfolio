@@ -3829,10 +3829,11 @@ textarea.form-control-lg {
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
   color: var(--bs-navbar-color);
-  background-color: transparent;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
