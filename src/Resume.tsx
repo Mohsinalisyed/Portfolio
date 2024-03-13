@@ -3,6 +3,15 @@ import ExperienceCard from "./Components/ExperienceCard";
 import EductionCard from "./Components/EductionCard";
 import { saveAs } from "file-saver";
 import { useTheme } from "./Theme/ThemeContext";
+import { FaReact, FaHtml5, FaJava, FaCss3, FaSass, FaFigma, FaGithub, } from "react-icons/fa";
+import { SiRedux, SiTailwindcss, SiStrapi, SiWeb3Dotjs } from "react-icons/si";
+import { MdOutlineImportantDevices, MdLineStyle } from "react-icons/md";
+import { AiOutlineApi } from "react-icons/ai";
+import { TbBrandBitbucket, TbBrandTypescript } from "react-icons/tb";
+import { BsBootstrap } from "react-icons/bs";
+import { TbBrandNextjs } from "react-icons/tb";
+
+
 const Resume = () => {
   const { theme } = useTheme();
   const bgColor = theme === 'dark' ? 'bg-light' : 'bg-dark'
@@ -112,85 +121,102 @@ const Resume = () => {
                       <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            React Js
+                            <FaReact /> <span className='px-2'>React Js </span>
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            Angular Js
+                            <TbBrandNextjs /> <span className='px-2'>Next Js </span>
                           </div>
                         </div>
                         <div className="col">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            Next Js
+                            <SiRedux /> <span className='px-2'>Redux </span>
                           </div>
                         </div>
                       </div>
                       <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                       Web Development
+                            <FaHtml5/> <span className='px-2'>Html5</span>
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                           Figma
+                            <FaJava /> <span className='px-2'>Javascript</span>
                           </div>
                         </div>
                         <div className="col">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            Api Integration
+                            <TbBrandTypescript />  <span className='px-2'>Typescript</span>
                           </div>
                         </div>
                       </div>
                       <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            Redux
+                            <FaCss3/> <span className='px-2'>Css3</span>
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            GitHub
+                            <BsBootstrap /> <span className='px-2'>Bootstrap</span>
                           </div>
                         </div>
                         <div className="col">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100  text-bg-light ${bgColor}`}>
-                            BitBucket
+                            <SiTailwindcss/> <span className='px-2'>Tailwind css</span>
                           </div>
                         </div>
                       </div>
                       <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            HTML5
+                            <FaSass/> <span className='px-2'>Sass</span>
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            CSS3
+                            <MdLineStyle />  <span className='px-2'>Styled components</span>
                           </div>
                         </div>
                         <div className="col">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            JavaScript
+                            <MdOutlineImportantDevices /> <span className='px-2'>Responsive Design</span>
                           </div>
                         </div>
                       </div>
                       <div className="row row-cols-1 row-cols-md-3">
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            TypeScript
+                            <FaFigma/> <span className='px-2'>Figma</span>
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            Sass
+                            <SiStrapi/> <span className='px-2'>Strapi(cms)</span>
                           </div>
                         </div>
                         <div className="col">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
-                            Styled Component
+                            <AiOutlineApi /> <span className='px-2'>Api integration</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row row-cols-1 row-cols-md-3">
+                        <div className="col mb-4 mb-md-0">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
+                            <FaGithub /> <span className='px-2'>Github</span>
+                          </div>
+                        </div>
+                        <div className="col mb-4 mb-md-0">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
+                            <TbBrandBitbucket /> <span className='px-2'>BitBucket</span>
+                          </div>
+                        </div>
+                        <div className="col">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
+                            <SiWeb3Dotjs/> <span className='px-2'>Web3</span>
                           </div>
                         </div>
                       </div>
