@@ -105,7 +105,7 @@ const Resume = () => {
               <section>
                 {/* <!-- Skillset Card--> */}
                 <div className="card shadow border-0 rounded-4 mb-5  bg-gradient">
-                  <div className="card-body p-5 pb-0">
+                  <div className="card-body res-p pb-0">
                     {/* <!-- Professional skills list--> */}
                     <div className="mb-5">
                       <div className="d-flex align-items-center mb-4">

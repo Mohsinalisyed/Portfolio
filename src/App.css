@@ -7886,6 +7886,9 @@ textarea.form-control-lg {
 .p-5 {
   padding: 3rem !important;
 }
+.res-p {
+    padding: 3rem !important;
+}
 
 .px-0 {
   padding-right: 0 !important;
@@ -11814,6 +11817,9 @@ html {
 @media (max-width: 576px) {
   .homeBtn {
     width: 100%;
+  }
+  .res-p {
+    padding: 1rem !important;
   }
 }
 .aboutBoxShadow {

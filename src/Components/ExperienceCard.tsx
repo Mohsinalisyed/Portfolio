@@ -12,7 +12,7 @@ const ExperienceCard: React.FC<Iprops> = ({ startDate, endDate, position, compan
  const { theme } = useTheme();
   return (
       <div className="card shadow border-0 rounded-4 mb-5 bg-gradient">
-    <div className="card-body p-5">
+          <div className="card-body res-p">
         <div className="row align-items-center gx-5">
             <div className="col text-center text-lg-start mb-4 mb-lg-0">
                       <div className={`${theme === 'dark' ? 'bg-light' : 'bg-dark'} p-4 rounded-4`}>
