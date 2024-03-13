@@ -25,15 +25,15 @@ const Home = () => {
                       Get online and grow fast
                     </span>
                   </h1>
-                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3 ">
                     <Link
-                      className="btn btn-primary btn-lg px-3 py-3 me-sm-3 fs-6 fw-bolder"
-                      to="resume"
+                    className="btn btn-primary btn-lg px-3 py-3 me-sm-3 fs-6 fw-bolder homeBtn"
+                    to="resume"
                     >
                       Resume
                     </Link>
                     <Link
-                      className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder text-bg-light"
+                    className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder text-bg-light homeBtn"
                     to="projects"
                     style={{ borderColor:"#6610f2"}}
                     >

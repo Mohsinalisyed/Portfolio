@@ -11801,3 +11801,12 @@ html {
   align-items: center;
   font-weight: 600;
 }
+.homeBtn {
+  width: 40%;
+}
+
+@media (max-width: 576px) {
+  .homeBtn {
+    width: 100%;
+  }
+}
