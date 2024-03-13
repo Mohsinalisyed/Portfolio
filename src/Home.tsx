@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <main className="flex-shrink-0">
         <header className="py-5">
-          <div className="container px-3 pb-5">
+          <div className="container px-3">
             <div className="row gx-5 align-items-center">
               <div className="col-xxl-5">
                 {/* <!-- Header text content--> */}
@@ -57,11 +57,11 @@ const Home = () => {
             </div>
           </div>
         </header>
-      <section className={`bg-light py-5 ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}>
-          <div className="container px-3">
+      <section className={` py-5 ${theme === 'dark' ? 'bg-light' : 'bg-gradient'}`}>
+        <div className="container px-3">
             <div className="row gx-5 justify-content-center">
               <div className="col-xxl-8">
-                <div className="text-center my-5">
+                <div className="text-center">
                   <h2 className="display-5 fw-bolder">
                     <span className="text-gradient d-inline">About Me</span>
                   </h2>
