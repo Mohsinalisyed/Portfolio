@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { useTheme } from '../Theme/ThemeContext';
 interface Iprops{
     projectName:string;
     link?: string;
@@ -8,9 +7,8 @@ interface Iprops{
     status?:string
 }
 const ProjectCard: React.FC<Iprops> = ({ projectName, link, desc, status }) => {
-  const { theme } = useTheme();
   return (
-    <div className={`${theme === 'dark' ? 'bg-light' : 'bg-dark'} card overflow-hidden shadow rounded-4 border-0 mb-5`}>
+    <div className={`bg-gradient card overflow-hidden shadow rounded-4 border-0 mb-5`}>
     <div className="card-body p-0">
         <div className="d-grid d-sm-flex justify-content-sm-center justify-content-xxl-start align-items-center py-4">
           <div className="px-3" style={{minWidth:"230px"}}>
