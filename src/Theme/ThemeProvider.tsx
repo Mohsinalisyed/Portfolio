@@ -6,7 +6,11 @@ interface Props {
 }
 
 const ThemeContextWrapper: FC<Props> = ({ children }) => {
-    const [theme, setTheme] = useState(themes.dark);
+    const [theme, setTheme] = useState(
+        () => {
+            return localStorage.getItem('theme') || themes.dark;
+        }
+    );
 
     function changeTheme(newTheme: string) {
         setTheme(newTheme);
@@ -23,7 +27,10 @@ const ThemeContextWrapper: FC<Props> = ({ children }) => {
                 break;
         }
     }, [theme]);
-
+    
+    useEffect(() => {
+        localStorage.setItem('theme', theme);
+    }, [theme]);
     return (
         <ThemeContext.Provider value={{ theme: theme, changeTheme: changeTheme }}>
             {children}
