@@ -169,7 +169,7 @@ const Resume = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="row row-cols-1 row-cols-md-3 mb-4 mb-md-0">
+                      <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             <FaSass/> <span className='px-2'>Sass</span>
@@ -186,7 +186,7 @@ const Resume = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="row row-cols-1 row-cols-md-3 mb-4 mb-md-0">
+                      <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             <FaFigma/> <span className='px-2'>Figma</span>
