@@ -180,7 +180,7 @@ const Resume = () => {
                             <MdLineStyle />  <span className='px-2'>Styled components</span>
                           </div>
                         </div>
-                        <div className="col mb-4 mb-md-0">
+                        <div className="col mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             <MdOutlineImportantDevices /> <span className='px-2'>Responsive Design</span>
                           </div>
@@ -197,7 +197,7 @@ const Resume = () => {
                             <SiStrapi/> <span className='px-2'>Strapi(cms)</span>
                           </div>
                         </div>
-                        <div className="col mb-4 mb-md-0">
+                        <div className="col mb-md-0">
                           <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             <AiOutlineApi /> <span className='px-2'>Api integration</span>
                           </div>
