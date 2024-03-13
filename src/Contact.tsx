@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
 import notification from "./toast";
 import { ToastContainer } from "react-toastify";
+import { useTheme } from "./Theme/ThemeContext";
 const Contact = () => {
+  const { theme } = useTheme();
   const [values, setValues] = useState({
     fullName: "",
     email: "",
@@ -109,13 +111,11 @@ const Contact = () => {
     return isValid;
   };
 
-  return (
-    <div>
-      
+  return (    
       <section className="py-5">
         <div className="container px-3">
           {/* <!-- Contact form--> */}
-          <div className="bg-light rounded-4 py-5 px-4 px-md-5">
+        <div className={`${theme === 'dark' ? 'bg-light' : 'bg-dark'} rounded-4 py-5 px-4 px-md-5`} style={{marginTop:"70px"}}>
             <div className="text-center mb-5">
               <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3">
                 <i className="bi bi-envelope"></i>
@@ -132,7 +132,7 @@ const Contact = () => {
                   {/* <!-- Name input--> */}
                   <div className="form-floating mb-3">
                     <input
-                      className="form-control"
+                      className={`form-control ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}
                       id="name"
                       value={values.fullName}
                       onChange={handleChange}
@@ -147,7 +147,7 @@ const Contact = () => {
                   {/* <!-- Email address input--> */}
                   <div className="form-floating mb-3">
                     <input
-                      className="form-control"
+                    className={`form-control ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}
                       id="email"
                       value={values.email}
                       onChange={handleChange}
@@ -162,7 +162,7 @@ const Contact = () => {
                   {/* <!-- Phone number input--> */}
                   <div className="form-floating mb-3">
                     <input
-                      className="form-control"
+                      className={`form-control ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}
                       id="phone"
                       type="tel"
                       value={values.phone}
@@ -177,7 +177,7 @@ const Contact = () => {
                   {/* <!-- Message input--> */}
                   <div className="form-floating mb-3">
                     <textarea
-                      className="form-control"
+                      className={`form-control ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}
                       id="message"
                       value={values.message}
                       onChange={handleChange}
@@ -208,8 +208,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-     
-    </div>
   );
 };
 

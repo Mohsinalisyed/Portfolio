@@ -2,7 +2,10 @@ import React from "react";
 import ExperienceCard from "./Components/ExperienceCard";
 import EductionCard from "./Components/EductionCard";
 import { saveAs } from "file-saver";
+import { useTheme } from "./Theme/ThemeContext";
 const Resume = () => {
+  const { theme } = useTheme();
+  const bgColor = theme === 'dark' ? 'bg-light' : 'bg-dark'
   const downloadPDF = () => {
     const fileUrl = "img/CV.pdf"; // Replace with the local path to your PDF file
     const fileName = "CV.pdf"; // Replace with the desired filename for the downloaded PDF
@@ -29,12 +32,9 @@ const Resume = () => {
           </div>
           <div className="row gx-12 justify-content-center">
             <div className="col-lg-12 col-xl-12 col-xxl-12">
-              {/* <!-- Experience Section--> */}
               <section>
                 <div className="d-flex align-items-center justify-content-between mb-4">
                   <h2 className="text-primary fw-bolder mb-0">Experience</h2>
-                  {/* <!-- Download resume button--> */}
-                  {/* <!-- Note: Set the link href target to a PDF file within your project--> */}
                   <button
                     className="btn btn-primary px-4 py-2"
                     onClick={downloadPDF}
@@ -95,7 +95,7 @@ const Resume = () => {
               {/* <!-- Skills Section--> */}
               <section>
                 {/* <!-- Skillset Card--> */}
-                <div className="card shadow border-0 rounded-4 mb-5">
+                <div className="card shadow border-0 rounded-4 mb-5  bg-gradient">
                   <div className="card-body p-5">
                     {/* <!-- Professional skills list--> */}
                     <div className="mb-5">
@@ -111,85 +111,85 @@ const Resume = () => {
                       </div>
                       <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             React Js
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             Angular Js
                           </div>
                         </div>
                         <div className="col">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             Next Js
                           </div>
                         </div>
                       </div>
                       <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                        Web Development
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                            Figma
                           </div>
                         </div>
                         <div className="col">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             Api Integration
                           </div>
                         </div>
                       </div>
                       <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             Redux
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             GitHub
                           </div>
                         </div>
                         <div className="col">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100  text-bg-light ${bgColor}`}>
                             BitBucket
                           </div>
                         </div>
                       </div>
                       <div className="row row-cols-1 row-cols-md-3 mb-4">
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             HTML5
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             CSS3
                           </div>
                         </div>
                         <div className="col">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             JavaScript
                           </div>
                         </div>
                       </div>
                       <div className="row row-cols-1 row-cols-md-3">
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             TypeScript
                           </div>
                         </div>
                         <div className="col mb-4 mb-md-0">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             Sass
                           </div>
                         </div>
                         <div className="col">
-                          <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <div className={`d-flex align-items-center rounded-4 p-3 h-100 text-bg-light ${bgColor}`}>
                             Styled Component
                           </div>
                         </div>
