@@ -115,7 +115,7 @@ const Contact = () => {
       <section className="py-5">
         <div className="container px-3">
           {/* <!-- Contact form--> */}
-        <div className={`${theme === 'dark' ? 'bg-light' : 'bg-dark'} rounded-4 py-5 px-4 px-md-5`} style={{marginTop:"70px"}}>
+        <div className={`${theme === 'dark' ? 'bg-light' : 'bg-gradient'} shadow rounded-4 py-5 px-4 px-md-5`} style={{marginTop:"70px"}}>
             <div className="text-center mb-5">
               <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3">
                 <i className="bi bi-envelope"></i>
