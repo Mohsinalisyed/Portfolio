@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTheme } from "./Theme/ThemeContext";
 const Home = () => {
+  const { theme } = useTheme();
+
   return (
-    <div>
     <main className="flex-shrink-0">
-        {/* <!-- Navigation--> */}
-        
-        {/* <!-- Header--> */}
         <header className="py-5">
           <div className="container px-3 pb-5">
             <div className="row gx-5 align-items-center">
@@ -57,8 +56,7 @@ const Home = () => {
             </div>
           </div>
         </header>
-        {/* <!-- About Section--> */}
-        <section className="bg-light py-5">
+      <section className={`bg-light py-5 ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}>
           <div className="container px-3">
             <div className="row gx-5 justify-content-center">
               <div className="col-xxl-8">
@@ -88,9 +86,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-      </main>
-     
-    </div>
+    </main> 
   );
 };
 
