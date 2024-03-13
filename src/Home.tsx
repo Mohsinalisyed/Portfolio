@@ -70,10 +70,7 @@ const Home = () => {
                     My name is Mohsin Ali Syed and I help brands to grow.
                   </p>
                   <p className="text-muted">
-                    I am an energetic and disciplined individual with excellent
-                    academic background, having good communication skills. I am
-                    looking for a position where I can prove my abilities and
-                    can get excellent career opportunities.
+                    Experienced Front End Developer proficient in HTML, CSS, JavaScript, Typescript, and React.js, with a track record of optimizing codebase for speed and scalability. Demonstrated expertise in front end tools and technologies, collaborating on diverse projects while adhering to industry standards.
                   </p>
                   <div className="d-flex justify-content-center fs-2 gap-4">
                     <a className="text-gradient" href="#!">
