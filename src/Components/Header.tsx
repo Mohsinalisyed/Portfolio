@@ -29,7 +29,8 @@ const Header = () => {
               <ThemeContext.Consumer>
                 {({ changeTheme }) => (
                 <button
-                  className='togglebtn text-bg-light px-0'
+                  className='togglebtn px-0'
+                  style={{ color: theme === 'dark' ? '#6c757d' :'white'}}
                     onClick={() => {
                       setDarkMode(!darkMode);
                       changeTheme(darkMode ? themes.light : themes.dark);

@@ -33,8 +33,9 @@ const Home = () => {
                       Resume
                     </Link>
                     <Link
-                      className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder"
-                      to="projects"
+                      className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder text-bg-light"
+                    to="projects"
+                    style={{ borderColor:"#6610f2"}}
                     >
                       Projects
                     </Link>
