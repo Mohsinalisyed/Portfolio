@@ -1,4 +1,4 @@
-.card {
+.projectcard {
     color: var(--clr-neutral-100);
     background-size: cover;
     padding: 10rem 0 0;
@@ -11,12 +11,12 @@
     min-height: 370px;
 }
 
-.card:hover,
-.card:focus-within {
+.projectcard:hover,
+.projectcard:focus-within {
     transform: scale(1.05);
 }
 
-.card-content {
+.projectcard-content {
     --padding: 1.5rem;
     padding: var(--padding);
     background: linear-gradient(hsl(0 0% 0% / 0),
@@ -24,17 +24,17 @@
             hsl(0 0% 0% / 1));
 }
 
-.card-title {
+.projectcard-title {
     position: relative;
     width: max-content;
 }
 
-.card:hover .card-title::after,
-.card:focus-within .card-title::after {
+.projectcard:hover .projectcard-title::after,
+.projectcard:focus-within .projectcard-title::after {
     transform: scaleX(1);
 }
 
-.card-title::after {
+.projectcard-title::after {
     content: "";
     position: absolute;
     height: 4px;
@@ -47,33 +47,33 @@
 }
 
 @media (hover) {
-    .card-content {
+    .projectcard-content {
         transform: translateY(65%);
         transition: transform 500ms ease;
     }
 
-    .card-content>*:not(.card-title) {
+    .projectcard-content>*:not(.projectcard-title) {
         opacity: 0;
         transition: opacity 500ms linear;
     }
 
-    .card:hover .card-content>*:not(.card-title),
-    .card:focus-within .card-content>*:not(.card-title) {
+    .projectcard:hover .projectcard-content>*:not(.projectcard-title),
+    .projectcard:focus-within .projectcard-content>*:not(.projectcard-title) {
         opacity: 1;
         transition-delay: 700ms;
     }
 
-    .card:hover .card-content,
-    .card:focus-within .card-content {
+    .projectcard:hover .projectcard-content,
+    .projectcard:focus-within .projectcard-content {
         transform: translateY(0);
         transition-delay: 500ms;
     }
 
-    .card:focus-within .card-content {
+    .projectcard:focus-within .projectcard-content {
         transition-duration: 0ms;
     }
 
-    .card-title::after {
+    .projectcard-title::after {
         transform: scaleX(0);
     }
 }
@@ -93,7 +93,7 @@
     background-color: var(--clr-neutral-100);
 }
 
-.card-body {
+.projectcard-body {
     color: rgb(255, 255, 255/0.85);
 }
 
