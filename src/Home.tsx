@@ -72,15 +72,15 @@ const Home = () => {
                     Experienced Front End Developer proficient in HTML, CSS, JavaScript, Typescript, and React.js, with a track record of optimizing codebase for speed and scalability. Demonstrated expertise in front end tools and technologies, collaborating on diverse projects while adhering to industry standards.
                   </p>
                   <div className="d-flex justify-content-center fs-2 gap-4">
-                    <a className="text-gradient" href="#!">
+                  <Link to="#!" target="_blank" rel="noopener noreferrer">
                       <i className="bi bi-twitter"></i>
-                    </a>
-                    <a className="text-gradient" href="https://www.linkedin.com/in/mohsin-ali-syed-10a16b215">
+                  </Link>
+                  <Link to="https://www.linkedin.com/in/mohsin-ali-syed-10a16b215" target="_blank" rel="noopener noreferrer">
                       <i className="bi bi-linkedin"></i>
-                    </a>
-                    <a className="text-gradient" href="https://bitbucket.org/mohsin__5775/workspace/repositories">
+                  </Link>
+                  <Link to="https://bitbucket.org/mohsin__5775/workspace/repositories" target="_blank" rel="noopener noreferrer">
                       <i className="bi bi-github"></i>
-                    </a>
+                  </Link>
                   </div>
                 </div>
               </div>

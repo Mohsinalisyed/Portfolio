@@ -22,14 +22,14 @@ const Header = () => {
     <main className="flex-shrink-0 navbarStyle">
       <nav className={`navbar navbar-expand-lg navbar-light py-3 ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}>
         <div className="container px-3">
-          <Link className="navbar-brand" to="/" onClick={closeNavbar}> {/* Close navbar on brand click */}
+          <Link className="navbar-brand" to="/" onClick={closeNavbar}>
             <span className="fw-bolder text-primary">PortFolio</span>
           </Link>
-          <button className="navbar-toggler" type="button" onClick={toggleNavbar}> {/* Toggle navbar on button click */}
+          <button className="navbar-toggler" type="button" onClick={toggleNavbar}> 
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className={`flex justify-content-between collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`}> {/* Use show class to toggle navbar collapse */}
-            <ul className="navbar-nav mb-2 mb-lg-0 small fw-bolder" onClick={closeNavbar}> {/* Close navbar on link click */}
+          <div className={`flex justify-content-between collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`}> 
+            <ul className="navbar-nav mb-2 mb-lg-0 small fw-bolder" onClick={closeNavbar}> 
               <li className="nav-item"><Link className={`nav-link text-bg-light `} to="/">Home</Link></li>
               <li className="nav-item"><Link className={`nav-link text-bg-light `} to="/resume">Resume</Link></li>
               <li className="nav-item"><Link className={`nav-link text-bg-light `} to="/projects">Projects</Link></li>
