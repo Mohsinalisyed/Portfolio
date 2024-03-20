@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './style.css';
+import './style.scss';
 import { useTheme } from '../Theme/ThemeContext';
 
 interface Iprops{
@@ -20,9 +20,9 @@ const Projectprojectcard: React.FC<Iprops> = ({ projectName, link, desc, status,
         <p className="projectcard-body">
           {desc}
         </p>
-        <Link to={link ?? ''} className="button" target="_blank" rel="noopener noreferrer">
-          {link && 'Visit Website'}
-        </Link>
+        {link && <Link to={link ?? ''} className="projectbtn" target="_blank" rel="noopener noreferrer">
+           Visit Website
+        </Link>}
       </div>
     </div>
   )
