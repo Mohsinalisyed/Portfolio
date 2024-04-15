@@ -15,9 +15,10 @@ const Project = () => {
                     <div className="row gx-5 justify-content-center">
                         <div className="col-lg-12 col-xl-12 col-xxl-12">
                             {/* <!-- Project Card 1--> */}
-                            <ProjectCard projectName='E-Commerce' status='inprocess'
-                                desc='Implementing an e-commerce platform with secure cryptocurrency payment integration for seamless transactions.'
+                            <ProjectCard projectName='TOTE'
+                                desc='TOTE is e-commerce platform with secure cryptocurrency payment integration for seamless transactions.'
                                 imgUrl='https://d3q5ph1a1lg1pd.cloudfront.net/1710925782277-8d2c5fc3-86c5-48ce-ad3d-d2439a562d0c.png'
+                                link='https://thetote.io/'
                             />
                             
                             {/* <!-- Project Card 2--> */}
