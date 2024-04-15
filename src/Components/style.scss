@@ -9,6 +9,10 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 370px;
+    @media (max-width: 768px) {
+            background-image: none !important;
+
+        }
 }
 
 .projectcard:hover,
