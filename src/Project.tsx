@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import toteImg from './assets/tote.png'
+import gameCollectionImg from './assets/game-collection.png'
 import buyShoeImg from './assets/buy-shoe.png'
 import pantagonWalletImg from './assets/pentagon-wallet.png'
 import pantagonWebsiteImg from './assets/pentagon-website.png'
@@ -12,33 +12,27 @@ import gamesfiImg from './assets/gamesfi.png'
 
 const projects = [
     {
-        url: toteImg,
-        caption: 'https://thetote.io/',
-        name: 'TOTE',
-        category: 'first'
-    },
-    {
         url: gamesfiImg,
         caption: 'https://www.gamesfi.live/',
         name: 'Gamesfi',
         category: 'first'
     },
     {
+        url: shetyleImg,
+        caption: 'https://shetyle.com/',
+        name: 'Shetyle',
+        category: 'first'
+    },
+    {
         url: pantagonWalletImg,
-        caption: 'https://pentagon-uniswap.netlify.app/',
+        caption: 'https://staging.pentagon.games/swap/#/swap',
         name: 'Pentagon Wallet',
         category: 'first'
     },
     {
         url: pantagonWebsiteImg,
-        caption: 'http://bcsh.xyz/',
+        caption: 'https://pen.bcsh.xyz/',
         name: 'Pentagon Website',
-        category: 'second'
-    },
-    {
-        url: quickBuyImg,
-        caption: 'https://e-buy-online.netlify.app/',
-        name: 'Quick Buy',
         category: 'second'
     },
     {
@@ -60,10 +54,16 @@ const projects = [
         category: 'first'
     },
     {
-        url: shetyleImg,
-        caption: 'https://shetyle.com/',
-        name: 'Shetyle',
+        url: gameCollectionImg,
+        caption: 'https://crypto-canyon-fall.netlify.app/',
+        name: 'Game Collection',
         category: 'first'
+    },
+    {
+        url: quickBuyImg,
+        caption: 'https://e-buy-online.netlify.app/',
+        name: 'Quick Buy',
+        category: 'second'
     },
 ];
 const Project = () => {
