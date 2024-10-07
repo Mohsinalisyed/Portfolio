@@ -5,7 +5,7 @@ interface Iprops{
     endDate:string;
     position:string;
     company:string;
-    desc: string;
+    desc: React.ReactNode;
     location: string;
 }
 const ExperienceCard: React.FC<Iprops> = ({ startDate, endDate, position, company, desc, location }) => {

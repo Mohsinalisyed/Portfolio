@@ -56,37 +56,36 @@ const Resume = () => {
                 <ExperienceCard
                   startDate="Oct 22"
                   endDate="Continue"
-                  position="Jr React Developer"
+                  position="Front End/React Developer"
                   company="Ideofuzion Pvt Ltd"
                   location="Bahria Phase 4 Rawalpindi"
-                  desc="Reviewing application requirements and interface designs,
-                        implementing a single-page application utilizing React js and
-                        Redux, and meeting with the development team to discuss
-                        user interface concepts all contributed to better user
-                        experience and overall performance. Debugging application
-                        code and troubleshooting interface software. tracking and
-                        enhancing front-end efficiency.Before deploying produced
-                        code to production settings,performed testing , fix issues
-                        discovered during testing .
-                        "
+                  desc={(
+                    <ul>
+                      <li>Reviewing application requirements and interface designs.</li>
+                      <li>Implementing a single-page application utilizing React.js and Redux.</li>
+                      <li>Debugging application code and troubleshooting interface software.</li>
+                      <li>Tracking and enhancing front-end efficiency.</li>
+                      <li>Performing testing and fixing issues discovered during testing before deploying code to production.</li>
+                    </ul>
+                  )}
                 />
 
                 {/* <!-- Experience Card 2--> */}
                 <ExperienceCard
                   startDate="July 20"
                   endDate="Sep 20"
-                  position="InternShip"
+                  position="Front End Developer"
                   company="Techozon Software"
                   location="Gulberg Green Islamabad"
-                  desc="Designing and developing front-end interfaces using HTML, CSS,
-                        JavaScript and React js. It often provide the chance to work
-                        alongside experienced developers, designers, and project
-                        managers. Developing and implementing front-end architecture
-                        to support user interface concepts. Identifying web-based user
-                        interactions. Collaborating with the team will help me
-                        understand the project requirements, receive guidance, and
-                        learn best practices in front-end development.
-                        "
+                  desc={(
+                    <ul>
+                      <li>Designing and developing front-end interfaces using HTML, CSS, JavaScript, and React.js.</li>
+                      <li>Collaborating with developers, designers, and project managers.</li>
+                      <li>Developing and implementing front-end architecture to support user interface concepts.</li>
+                      <li>Identifying web-based user interactions and improving the user experience.</li>
+                      <li>Working in a team to understand project requirements and follow best practices in front-end development.</li>
+                    </ul>
+                  )}
                 />
               </section>
               {/* <!-- Education Section--> */}
