@@ -1,11 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import gameCollectionImg from './assets/game-collection.png'
-import buyShoeImg from './assets/buy-shoe.png'
 import pantagonWalletImg from './assets/pentagon-wallet.png'
 import pantagonWebsiteImg from './assets/pentagon-website.png'
-import quickBuyImg from './assets/quick-buy.png'
-import realEstateImg from './assets/real-estate.png'
 import tidalImg from './assets/tidal.png'
 import shetyleImg from './assets/shetyle.png'
 import gamesfiImg from './assets/gamesfi.png'
@@ -36,21 +33,9 @@ const projects = [
         category: 'second'
     },
     {
-        url: realEstateImg,
-        caption: 'http://hmrealtors.online/',
-        name: 'Real Estate Portfolio',
-        category: 'first'
-    },
-    {
         url: tidalImg,
-        caption: 'https://mohsinalisyed-portfolio.netlify.app/',
+        caption: 'https://tidal-front-end.netlify.app/',
         name: 'Tidal',
-        category: 'first'
-    },
-    {
-        url: buyShoeImg,
-        caption: 'https://mohsinalisyed-portfolio.netlify.app/',
-        name: 'Buy Shoe',
         category: 'first'
     },
     {
@@ -58,12 +43,6 @@ const projects = [
         caption: 'https://crypto-canyon-fall.netlify.app/',
         name: 'Game Collection',
         category: 'first'
-    },
-    {
-        url: quickBuyImg,
-        caption: 'https://e-buy-online.netlify.app/',
-        name: 'Quick Buy',
-        category: 'second'
     },
 ];
 const Project = () => {
