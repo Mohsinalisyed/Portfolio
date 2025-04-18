@@ -132,7 +132,7 @@ const Contact = () => {
                   {/* <!-- Name input--> */}
                   <div className="form-floating mb-3">
                     <input
-                      className={`form-control ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}
+                      className={`form-control ${theme === 'dark' ? 'bg-light text-dark' : 'bg-dark text-white'}`}
                       id="name"
                       value={values.fullName}
                       onChange={handleChange}
@@ -147,7 +147,7 @@ const Contact = () => {
                   {/* <!-- Email address input--> */}
                   <div className="form-floating mb-3">
                     <input
-                    className={`form-control ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}
+                    className={`form-control ${theme === 'dark' ? 'bg-light text-dark' : 'bg-dark text-white'}`}
                       id="email"
                       value={values.email}
                       onChange={handleChange}
@@ -162,7 +162,7 @@ const Contact = () => {
                   {/* <!-- Phone number input--> */}
                   <div className="form-floating mb-3">
                     <input
-                      className={`form-control ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}
+                      className={`form-control ${theme === 'dark' ? 'bg-light text-dark' : 'bg-dark text-white'}`}
                       id="phone"
                       type="tel"
                       value={values.phone}
@@ -177,7 +177,7 @@ const Contact = () => {
                   {/* <!-- Message input--> */}
                   <div className="form-floating mb-3">
                     <textarea
-                      className={`form-control ${theme === 'dark' ? 'bg-light' : 'bg-dark'}`}
+                      className={`form-control ${theme === 'dark' ? 'bg-light text-dark' : 'bg-dark text-white'}`}
                       id="message"
                       value={values.message}
                       onChange={handleChange}
