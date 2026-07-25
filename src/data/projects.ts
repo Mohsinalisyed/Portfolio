@@ -1,6 +1,9 @@
 import type { FeaturedProject } from "@/types/project";
+import kixxlImg from "@/assets/projects/kixxl.png";
 import scribepayImg from "@/assets/projects/scribepay.png";
 import pentagonWalletImg from "@/assets/projects/pentagon-wallet.png";
+import bcshImg from "@/assets/projects/bcsh.png";
+import instadoodleImg from "@/assets/projects/instadoodle.png";
 
 export const featuredProjects: FeaturedProject[] = [
   {
@@ -13,6 +16,7 @@ export const featuredProjects: FeaturedProject[] = [
     liveUrl: "https://kixxl.com/",
     techStack: ["React.js", "Fabric.js", "Bootstrap"],
     tags: ["React", "Canvas", "AI", "eCommerce"],
+    coverImage: kixxlImg,
     featured: true,
   },
   {
@@ -51,6 +55,7 @@ export const featuredProjects: FeaturedProject[] = [
     liveUrl: "https://bcsh.xyz/",
     techStack: ["Next.js", "Web3.js"],
     tags: ["Next.js", "Web3", "NFT"],
+    coverImage: bcshImg,
     featured: true,
   },
   {
@@ -62,6 +67,7 @@ export const featuredProjects: FeaturedProject[] = [
     liveUrl: "https://instadoodle.com/",
     techStack: ["Vue.js", "Canvas API"],
     tags: ["Vue.js", "Canvas"],
+    coverImage: instadoodleImg,
     featured: true,
   },
 ];
