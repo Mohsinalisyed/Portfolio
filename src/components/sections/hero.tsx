@@ -62,14 +62,14 @@ export function Hero() {
 
         <Reveal delay={0.15} className="relative mx-auto w-full max-w-sm lg:max-w-none">
           <div className="relative aspect-square overflow-hidden rounded-3xl bg-gradient-brand p-1.5 shadow-2xl">
-            <div className="relative h-full w-full overflow-hidden rounded-[1.3rem] bg-background">
+            <div className="relative h-full w-full overflow-hidden rounded-[1.3rem] bg-white">
               <Image
                 src={profileImg}
                 alt={siteConfig.name}
                 fill
                 priority
                 sizes="(min-width: 1024px) 480px, 384px"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           </div>

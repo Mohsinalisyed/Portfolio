@@ -3,6 +3,7 @@ import { otherProjects } from "@/data/other-projects";
 import { skillCategories } from "@/data/skills";
 
 export const siteConfig = {
+  url: "https://portfolio-three-tau-88.vercel.app",
   name: "Mohsin Ali Syed",
   role: "Frontend Engineer",
   tagline:
