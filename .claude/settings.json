@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"^\\(next-themes|framer-motion|react-icons|react-hook-form|zod\\)$\")",
+      "Bash(npx --yes shadcn@latest add button card badge tabs sheet tooltip separator avatar input textarea label form sonner navigation-menu skeleton toggle-group -y --force)",
+      "Bash(npx --yes shadcn@latest add button card badge tabs sheet tooltip separator avatar input textarea label form sonner navigation-menu skeleton toggle-group -y)",
+      "Bash(node -e ' *)",
+      "Bash(mkdir -p \"d:/Projects/Portfolio/src/app/projects/[slug]\" \"d:/Projects/Portfolio/src/app/contact\")",
+      "Bash(npm run *)",
+      "Bash(xargs -I{} cat {})"
+    ],
+    "additionalDirectories": [
+      "d:\\Projects\\Portfolio\\src\\app\\projects"
+    ]
+  }
+}
